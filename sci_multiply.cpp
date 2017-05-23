@@ -42,7 +42,9 @@ int sci_multiply(char *fname, unsigned fname_len)
 
 	double *mat=NULL;//output will be stored here
 
-	int i=j=k=0;
+	int i=0;
+        int j=0;
+        int k=0;
 
         sciErr=getMatrixOfDouble(pvApiCtx,im1,&r1,&c1,&mat1);
 
